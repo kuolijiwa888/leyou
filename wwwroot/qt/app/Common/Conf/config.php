@@ -23,7 +23,7 @@ return [
 	'LANG_AUTO_DETECT' => false,
 	'LANG_LIST'        => 'zh-cn',
 	'VAR_LANGUAGE'     => 'l',
-    'URL_MODEL'        =>  2,
+    'URL_MODEL'        =>  1,
 	
 	'AUTOLOAD_NAMESPACE' => [
 		'Lib'     => COMMON_PATH.'Lib',

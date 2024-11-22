@@ -206,10 +206,9 @@ class Dispatcher {
                 send_http_status(404);
                 exit;
             }
-            
             // 去除URL后缀
             $_SERVER['PATH_INFO'] = preg_replace(C('URL_HTML_SUFFIX')? '/\.('.trim(C('URL_HTML_SUFFIX'),'.').')$/i' : '/\.'.__EXT__.'$/i', '', $_SERVER['PATH_INFO']);
-
+			//var_dump($_SERVER['PATH_INFO']);die;
             $depr   =   C('URL_PATHINFO_DEPR');
             $paths  =   explode($depr,trim($_SERVER['PATH_INFO'],$depr));
 

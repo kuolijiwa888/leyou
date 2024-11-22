@@ -251,6 +251,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'sthtx,slhtx,k3hzzx,',
+        'status' => '1',
       ),
       'f3k3' => 
       array (
@@ -281,6 +282,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'sthtx,slhtx,k3hzzx,',
+        'status' => '1',
       ),
       'f5k3' => 
       array (
@@ -311,6 +313,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'sthtx,slhtx,k3hzzx,',
+        'status' => '1',
       ),
       'sfks' => 
       array (
@@ -341,6 +344,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'sthtx,slhtx,k3hzzx,',
+        'status' => '1',
       ),
       'jisk3' => 
       array (
@@ -371,6 +375,38 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'sthtx,slhtx,k3hzzx,',
+        'status' => '1',
+      ),
+      'kks' => 
+      array (
+        'id' => '149',
+        'typeid' => 'k3',
+        'title' => 'kkkkss',
+        'ftitle' => '一分钟一期',
+        'firsttime' => NULL,
+        'endtime' => NULL,
+        'qishu' => '1440',
+        'name' => 'kks',
+        'ftime' => '10',
+        'isopen' => '1',
+        'issys' => '1',
+        'closetime1' => '00:00:00',
+        'closetime2' => '00:00:00',
+        'expecttime' => '1',
+        'iswh' => '0',
+        'allsort' => '0',
+        'listorder' => '149',
+        'isgf' => '0',
+        'isct' => '0',
+        'issd' => '1',
+        'hemai_status' => NULL,
+        'hemai_danqi_sum' => NULL,
+        'hemai_baomi_type' => NULL,
+        'hemai_touzhu_beishu' => NULL,
+        'hemai_touzhe_bili' => NULL,
+        'hemai_baodi_status' => NULL,
+        'hemai_wanfa_type' => NULL,
+        'status' => '1',
       ),
     ),
     'pk10' => 
@@ -404,6 +440,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'qian1,qian2,qian3,qian4,qian5,dwd,',
+        'status' => '1',
       ),
       'pk101' => 
       array (
@@ -434,6 +471,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'qian1,qian2,qian3,qian4,qian5,dwd,',
+        'status' => '1',
       ),
       'pk105' => 
       array (
@@ -464,6 +502,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'qian1,qian2,qian3,qian4,qian5,dwd,',
+        'status' => '1',
       ),
       'pk103' => 
       array (
@@ -494,6 +533,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'qian1,qian2,qian3,qian4,qian5,dwd,',
+        'status' => '1',
       ),
     ),
     'ssc' => 
@@ -527,6 +567,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => '2x,dw,dxds,',
+        'status' => '1',
       ),
       'ssc5fc' => 
       array (
@@ -557,6 +598,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => '2x,dw,dxds,',
+        'status' => '1',
       ),
       'ssc3fc' => 
       array (
@@ -587,6 +629,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => '2x,dw,dxds,',
+        'status' => '1',
       ),
     ),
     'lhc' => 
@@ -620,6 +663,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'tmzx,tmlm,sxtx,',
+        'status' => '1',
       ),
       'lhc1f' => 
       array (
@@ -650,6 +694,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'tmzx,tmlm,sxtx,',
+        'status' => '1',
       ),
       'lhc5f' => 
       array (
@@ -680,6 +725,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'tmzx,tmlm,sxtx,',
+        'status' => '1',
       ),
     ),
     'x5' => 
@@ -713,6 +759,41 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'bdw,dw,',
+        'status' => '1',
+      ),
+    ),
+    'dpc' => 
+    array (
+      'pl3' => 
+      array (
+        'id' => '137',
+        'typeid' => 'dpc',
+        'title' => '排列三',
+        'ftitle' => '全天一期',
+        'firsttime' => '00:00:00',
+        'endtime' => NULL,
+        'qishu' => '0',
+        'name' => 'pl3',
+        'ftime' => '1800',
+        'isopen' => '1',
+        'issys' => '0',
+        'closetime1' => '00:00:00',
+        'closetime2' => '00:00:00',
+        'expecttime' => '1',
+        'iswh' => '0',
+        'allsort' => '37',
+        'listorder' => '137',
+        'isgf' => '0',
+        'isct' => '0',
+        'issd' => '0',
+        'hemai_status' => '1',
+        'hemai_danqi_sum' => '5',
+        'hemai_baomi_type' => '0',
+        'hemai_touzhu_beishu' => '30',
+        'hemai_touzhe_bili' => '30',
+        'hemai_baodi_status' => '1',
+        'hemai_wanfa_type' => NULL,
+        'status' => '1',
       ),
     ),
     'xy28' => 
@@ -746,6 +827,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'tm,hunhe,',
+        'status' => '1',
       ),
       'yfxy28' => 
       array (
@@ -776,6 +858,7 @@
         'hemai_touzhe_bili' => '30',
         'hemai_baodi_status' => '1',
         'hemai_wanfa_type' => 'tm,hunhe,',
+        'status' => '1',
       ),
     ),
   ),

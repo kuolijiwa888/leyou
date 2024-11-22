@@ -3,18 +3,18 @@
 	'APP_SUB_DOMAIN_RULES' => array (
 
 		//PC主页
-		'lyweb.juxing168.xyz' 	 => 'Home',
-		'lyweb.108108.wang' 	 => 'Home',
-		'lyweb.leyou88.cn' 	 => 'Home',
-		'lyweb.juxing88.cn' 	 => 'Home',
+		'127.0.0.1' 	 => 'Home',
+		// 'lyweb.108108.wang' 	 => 'Home',
+		// 'lyweb.leyou88.cn' 	 => 'Home',
+		// 'lyweb.juxing88.cn' 	 => 'Home',
 
 
 		
 		//手几
-		'lymobile.juxing88.cn' 	 => 'Mobile',
-		'lymobile.leyou88.cn' 	 => 'Mobile',
-		'lymobile.108108.wang' 	 => 'Mobile',
-		'lymobile.juxing168.xyz' 	 => 'Mobile',
+		'127.0.0.2' 	 => 'Mobile',
+		// 'lymobile.leyou88.cn' 	 => 'Mobile',
+		// 'lymobile.108108.wang' 	 => 'Mobile',
+		// 'lymobile.juxing168.xyz' 	 => 'Mobile',
 
 		//支付
 		'pay.zfhyk.top'   => 'Payer',
