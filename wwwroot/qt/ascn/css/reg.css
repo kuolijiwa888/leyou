@@ -1,0 +1,767 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Microsoft Yahei', 'Microsoft JhengHei', '微软雅黑', '微軟正黑', '\5FAE\8F6F\96C5\9ED1', '&#x5FAE;&#x8F6F;&#x96C5;&#x9ED1;',serif ;
+}
+body *{
+    font-family: 'Microsoft Yahei', 'Microsoft JhengHei', '微软雅黑', '微軟正黑', '\5FAE\8F6F\96C5\9ED1', '&#x5FAE;&#x8F6F;&#x96C5;&#x9ED1;',serif ;
+}
+img{
+    border: 0px;
+}
+
+.eyccontent1605 input:focus{outline:none} /*Chrome*/
+.eyccontent1605{
+    width: 100%;
+    min-width: 950px;
+    margin: 0px auto;
+    /*background: url(../images/eybg16021.png) top center no-repeat;*/
+    overflow: hidden;
+    text-align: center;
+}
+.eyccontent1605 .eycmainMid1605{
+    height: 100vh;
+    line-height: 800px;
+    margin: 0px auto;
+    overflow: auto;
+    font-size: 0;
+}
+.eyccontent1605 .eycmainMid1605>div{
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-left: 0px;
+
+}
+.eyccontent1605 .eycleftBlock{
+    width: 1000px;
+    height: 298px;
+    background: url(../images/eyicon1602.png) 35px -208px;
+}
+.eyccontent1605 .eycmidBlockLine{
+    background: #dddddd;
+    width: 1px;
+    height: 350px;
+    opacity: 0.8;
+    margin: 0px;
+}
+.eyccontent1605 .eycrightBlock{
+    width: 343px;
+    height: 510px;
+    border: 0px solid #000000;
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgba(12,8,33,0.50);
+    margin-left: 35px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+
+}
+.login-fhlm{
+    width: 124px;
+    height: 124px;
+    padding: 2px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    background: url("../images/fhlm-bg.png") no-repeat right top;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    text-align: right;
+}
+.fhlm-logo img{
+    height: 62px;
+}
+.eyccontent1605 .eycrightBlock form{
+    width: 255px;
+    margin: 32px auto 0;
+    position: relative;
+}
+.eyccontent1605 .eycrightBlock .eycforTitleTxt{
+    position: absolute;
+    color: #fff;
+    left: 0px;
+    top: 0px;
+    background: url(../images/eybg1602.png);
+    width: 427px;
+    height: 46px;
+    line-height: 46px;
+    vertical-align: middle;
+}
+.eyccontent1605 .footer{
+    width: 100%;
+    height: 88px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eyccontent1605 .footer>div{
+    margin: 3px 0px;
+}
+
+.eyccontent1605 .eycrightBlock .eycinputStyle{
+    position: relative;
+    width: 240px;
+    height: 34px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+    line-height: 39px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background: #cdcad6;
+    background: rgba(255,255,255,0.00);
+    transition: all .4s ease;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#979AAD;
+    font-size: 13px;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#979AAD;
+    font-size: 13px;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#979AAD;
+    font-size: 13px;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#979AAD;
+    font-size: 13px;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle.eycerror1610{
+    border-color: #fd4a56;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle>*{
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle>*:first-child{
+    top: 0px;
+    left: 6px;
+    color: #3a474c;
+    font-size: 14px;
+    height: 31px;
+    line-height: 31px;
+    color: #ffffff;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle input{
+    height: 24px;
+    vertical-align: middle;
+    font-size: 14px;
+    background: transparent;
+    border: 0px;
+    color: #000;
+    outline:none;
+
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle input:focus{
+    color: #000;
+}
+.eyccontent1605 .eycrightBlock .eycinputName1605 input{
+    left: 30px;
+    top: 1px;
+    width: 211px;
+    border-bottom: 1px solid #b9bBc4;
+    outline: none;
+}
+.eyccontent1605 .eycrightBlock .eycinputName1605 input[readonly]{
+    color: #777;
+    cursor: no-drop;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle .error-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../images/login_error.png') no-repeat;
+    position: absolute;
+    right: -30px;
+    top: 3px;
+    transform: scale(0);
+    transition: all .4s ease;
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle .error-icon.show {
+    transform: scale(1);
+}
+.eyccontent1605 .eycrightBlock .eycinputStyle .error-icon.success.show {
+    transform: scale(1);
+    background: url('../images/reg_success.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    right: -26px;
+    top: 7px;
+}
+.eyccontent1605 .eycrightBlock .eycinputNamea1605 input{
+    left: 43px;
+    top: 1px;
+    width: 150px;
+}
+.eyccontent1605 .eycrightBlock .eycinputPass1605 input{
+    left: 43px;
+    top: 1px;
+    width: 180px;
+}
+.eyccontent1605 .eycrightBlock .eycinputPassa1605 input{
+    left: 30px;
+    top: 1px;
+    width: 211px;
+    border-bottom: 1px solid #b9bBc4;
+    outline: none;
+}
+.bywebyanzheng{
+    position: relative;
+    width: 240px;
+    height: 34px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 1px solid #b9bbc4;
+    line-height: 34px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background: #cdcad6;
+    background: rgba(255,255,255,0.00);
+    transition: all .4s ease;
+    color: #595963;
+    text-align: left;
+}
+.bywebyanzheng span{
+    padding-left: 30px;
+}
+.bywebyanzheng span.no:before{
+    content: " ";
+    background-color: #ff5858;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 10px;
+    left: 9px;
+    top: 12px;
+    z-index: 1;
+}
+.bywebyanzheng span.no i:before{
+    content: " ";
+    background-color: #f1b7b7;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border-radius: 10px;
+    left: 4px;
+    top: 7px;
+}
+.bywebyanzheng span.ok:before{
+    content: " ";
+    background-color: #7ed321;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 10px;
+    left: 9px;
+    top: 12px;
+    z-index: 1;
+}
+.bywebyanzheng span.ok i:before{
+    content: " ";
+    background-color: #c1e49b;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border-radius: 10px;
+    left: 4px;
+    top: 7px;
+}
+.eyccontent1605 .eycrightBlock .eycinputPassb1605 input{
+    left: 43px;
+    top: 4px;
+}
+.eyccontent1605 .eycrightBlock .eycinputCheck1605 input{
+    left: 29px;
+    top: 1px;
+    width: 133px;
+    border-bottom: 1px solid #b9bBc4;
+    height: 27px;
+}
+
+.eyccontent1605 .eycrightScroll
+
+.eyccontent1605 .eycinputName1605 input{
+    width: 205px;
+    margin-left: 5px;
+}
+.eyccontent1605 .eycinputPass1605 input{
+    width: 205px;
+    margin-left: 5px;
+}
+.eyccontent1605 .eycinputCheck1605 input{
+    width: 185px;
+}
+.eyccontent1605 .eycrefreshBtn1601{
+    width: 100px;
+    height: 48px;
+    background: #76688a;
+    color: #fff;
+    line-height: 20px;
+    top: -17px;
+    left: 141px;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border: 0px solid #000000;
+    cursor: pointer;
+}
+.eycclickSubmit1605{
+
+    width: 254px;
+    height: 44px;
+    background: #CCCEDC;
+    border-radius: 18.08px;
+    cursor: pointer;
+    -webkit-transition: opacity 1s; /* Safari */
+    transition: all .2s ease;
+    font-size: 14px;
+    line-height: 42px;
+    color: #fff;
+}
+.eycclickSubmit1605.color{
+    background: linear-gradient(-270deg, #5392E3 0%, #715ECF 100%);
+}
+.eycclickSubmit1605.color:hover{
+    box-shadow: 0px 0px 10px 0 rgba(12,8,33,0.50);
+}
+
+
+.tips_reg {
+    width: 254px;
+    opacity: 0;
+    height: 9px;
+    /* line-height: 24px; */
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    color: red;
+    transition: all .4s ease;
+     white-space: nowrap;
+    margin-bottom: 10px;
+}
+.tips_reg.show {
+   width: 240px;
+ }
+.tips_reg.close {
+   width: 0;
+ }
+
+.tips_reg span {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+    color: red;
+    top: -5px;
+}
+
+.tip_ask {
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    top: 42px;
+    text-align: left;
+}
+
+.tip_ask span {
+    color: #E5BD7A;
+    line-height: 14px;
+    position: relative;
+    left: 12px;
+    font-family: "microsoft yahei";
+    font-size: 12px;
+    color: rgba(255,255,255,0.60);
+}
+
+.tip_ask span a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(255,255,255,0.60);
+}
+.tip_ask span a:hover{
+    color: #D2AD6F;
+}
+
+.eycrightScroll {
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+}
+
+.menu_reg {
+    display: inline-block;
+    position: absolute;
+    top: -52px;
+    width: 674px;
+    left: 0px;
+}
+
+.menu_reg ul{
+    display: inline-block;
+    padding-left: 0px;
+}
+
+.menu_reg ul li{
+    display: inline-block;
+    list-style: none;
+    width: 94px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.15px;
+    /*text-shadow: 0 1px 1px rgba(6,7,33,0.79);*/
+}
+
+.menu_reg ul li a{
+    display: inline-block;
+    width: 80px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu_reg ul li a:hover{
+    color: #E5BD7A;
+    text-decoration: underline;
+}
+
+
+.eycclickSubmit1605:hover{
+    opacity: 1;
+}
+.ui-tooltip {
+    padding: 5px;
+    width: 125px;
+    font: 12px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    border: 1px #c79876 solid;
+    background: #fff4df;
+}
+
+
+
+
+#lunbobox {
+    width:597px;
+    height:510px;
+    position:relative;
+}
+.lunbo {
+    width: 597px;
+    height: 510px;
+}
+.lunbo img {
+    width:597px;
+    height:510px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#lunbobox ul {
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lunbobox ul li {
+    cursor:pointer;
+    width:34px;
+    height:6px;
+    float:left;
+    list-style:none;
+    text-align:center;
+    margin:0px 8px 0px 0px;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.50);
+    border-radius: 6px;
+}
+#toleft {
+    display:none;
+    width:30px;
+    height:100px;
+    font-size:40px;
+    line-height:100px;
+    text-align:center;
+    color:#f4f4f4;
+    position:absolute;
+    top:90px;
+    left:12px;
+    cursor:pointer;
+    z-index:99;
+    opacity:0.4;
+}
+#toright {
+    display:none;
+    width:30px;
+    height:100px;
+    font-size:40px;
+    line-height:100px;
+    text-align:center;
+    color:#f4f4f4;
+    /*background:#cccccc;
+    */
+    position:absolute;
+    top:90px;
+    right:0px;
+    cursor:pointer;
+    z-index:99;
+    opacity:0.4;
+}
+/**
+游客登录
+*/
+.guest-wrapper {
+position: absolute;
+right: 15px;
+top: 15px;
+}
+.guest-wrapper a {
+color: #E5BD7A;
+text-decoration: none;
+font-size: 14px;
+}
+
+.form-btns-section{
+    font-size: 14px;
+    color: #000;
+}
+.custom-service-area{
+    margin: 20px 0 0 0;
+}
+.custom-service-area a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+.custom-service-area a:hover{
+    color: #878FF4;
+    text-decoration: underline;
+}
+.client-btns-wrapper{
+    position: absolute;
+    bottom: 63px;
+    width: 100%;
+}
+.client-btns{
+    width: 76%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.client-btn{
+    position: relative;
+    width: 120px;
+    height: 37px;
+    vertical-align: middle;
+    line-height: 37px;
+    border: 1px solid #CCCEDC;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+}
+.client-btn a{
+    display: block;
+    text-decoration: none;
+}
+.client-btn a img,.client-btn a span{
+    vertical-align: middle;
+    text-decoration: none;
+    color: #000;
+}
+.client-btn a:hover span{
+    color: #878FF4;
+}
+.mobile-btn:hover .qrcode-area{
+    display: block;
+}
+.qrcode-area{
+    display:none;
+    background: #fff;
+    position: absolute;
+    top: -121px;
+    left: 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 20px 0 rgba(12,8,33,0.70);
+}
+
+.qrcode-area:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 43px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    display: block;
+}
+.qrcode-area img{
+    width: 96px;
+    height: 96px;
+    padding: 5px;
+    display: block;
+}
+.login_code,.login_name,.pass_word,.pass_qword,.pass_zword,.pass_word_confirm,.v_code{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+}
+.login_code{
+    background-image: url(../images/icon_user_grey.png);
+}
+.login_code.color{
+    background-image: url(../images/icon_user.png);
+}
+.login_name{
+    background-image: url(../images/icon_user_grey.png);
+}
+.login_name.color{
+    background-image: url(../images/icon_user.png);
+}
+.pass_word{
+    background-image: url(../images/icon_password_grey.png);
+}
+.pass_word.color{
+    background-image: url(../images/icon_password.png);
+}
+.pass_qword{
+    background-image: url(../images/icon_password_grey.png);
+}
+.pass_qword.color{
+    background-image: url(../images/icon_password.png);
+}
+.pass_zword{
+    background-image: url(../images/icon_password_grey.png);
+}
+.pass_zword.color{
+    background-image: url(../images/icon_password.png);
+}
+.pass_word_confirm{
+    background-image: url(../images/icon_password_grey.png);
+}
+.pass_word_confirm.color{
+    background-image: url(../images/icon_password.png);
+}
+.v_code{
+    background-image: url(../images/icon_security_grey.png);
+    background-size: 15px;
+}
+.v_code.color{
+    background-image: url(../images/icon_security.png);
+}
+.eycinputCheck1605{
+    display: none;
+}
+.eycinputCheck1605.show{
+    display: block;
+}
+.login-sound {
+    position: fixed;
+    right: 5px;
+    top: 30%;
+}
+.login-sound img {
+    width: 32px;
+    height: 32px;
+    background: rgba(255,255,255,0.20);
+    border-radius: 50%;
+    padding: 8px;
+}
+.reg-btns-wrapper{
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+    margin: 0;
+}
+#guest-enter {
+    cursor: pointer;  font-size: 13px;
+}
+
+#guest-enter i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url('../images/icon_arrow_right.png');
+    background-size: cover;
+    vertical-align: middle;
+}
+#guest-enter:hover i{
+    background-image: url('../images/icon_arrow_right_active.png');
+}
+#guest-enter span{
+    color: #000;
+    vertical-align: middle;
+}
+#guest-enter:hover span{
+    color: #3F7ECB;
+}
+.ocean {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.wave {
+    background: url(../images/wave2.png) repeat-x;
+    position: absolute;
+    bottom: -25px;
+    width: 11436px;
+    height: 100%;
+    animation: wave 14s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+    background: url(../images/wave1.png) repeat-x;
+    bottom: -25px;
+    animation: wave 14.20s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 10s ease -1.25s infinite;
+    opacity: 1;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -2859px;
+    }
+}
+
+@keyframes swell {
+    0%, 100% {
+        transform: translateY(-25px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+}

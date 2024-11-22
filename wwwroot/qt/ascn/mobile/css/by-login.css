@@ -1,0 +1,192 @@
+*{margin:0;padding:0;list-style: none;border:none;font-style: normal;font-family: 微软雅黑;}
+html{font-size: 26.66667vw;}
+body{font-size: 16px;background-color:#fff;}
+a{text-decoration:none;color:#8c8c8c;	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);-webkit-user-select: none;-moz-user-focus: none;-moz-user-select: none;}
+ul { list-style: none; }
+input{border:0;outline:none;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+::-webkit-scrollbar{display:none;}
+.by-login-bj{
+    background-image: linear-gradient(to right, #434354 0%, #434354 100%);
+    height: 147.79vh;
+    width: 320%;
+    position: fixed;
+    top: -115vh;
+    left: -4.125rem;
+    border-radius: 50%;
+}
+.logo-name .logo222{
+    padding-top: 6vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2rem;
+    text-align: center;
+}
+.logo-name .logo222 .img{
+    border: .02rem solid #fff;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+}
+.logo-name .logo222 div img{
+    width: 100%;
+    height: 100%;
+}
+.logo-name .name222{
+    padding-top: 2vh;
+}
+.logo-name .name222 span{
+    font-size: .27rem;
+    font-weight: 800;
+    color: #fff;
+}
+.bykuang{
+	padding:.2rem;
+    padding-bottom: .3rem;
+    background: #fff;
+    top: 28vh;
+    width: 2.8rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+	box-shadow: 0 0 50px #434354;
+    border-radius: .1rem;
+}
+.bykuang .top1{
+    border-bottom: .01rem solid #eeeeee;
+}
+.bykuang .top1 div{
+	display:inline-block;
+    width: 50%;
+    text-align: center;
+    height: 0.35rem;
+    line-height: 0.25rem;
+    font-size: .16rem;
+	font-weight:800;
+    color: #7c838e;
+}
+.bykuang .top1 div.curr{
+    border-bottom: .02rem solid #a68f4c;
+	color:#a68f4c;
+}
+.bykuang .top2{
+	padding-top:.2rem;
+    text-align: center;
+}
+.bykuang .top2 div{
+	height:.4rem;
+    border-bottom: .01rem solid #eeeeee;
+	position:relative;
+}
+.bykuang .top2 div i{
+    position:absolute;
+    padding-top: .1rem;
+    font-size: .18rem;
+    color: #a68f4c;
+}
+.bykuang .top2 div input{
+    height: 100%;
+    width: 100%;
+	font-size:.15rem;
+    padding-left: 0.3rem;
+    color: #3c424c;
+}
+.bykuang .top2 .top2-2{
+	padding-top:.1rem;
+}
+.bykuang .top2 div i.right{
+    position:absolute;
+    padding-top: .1rem;
+    font-size: .18rem;
+    color: #a68f4c;
+    right: .1rem;
+}
+.bykuang .top3{
+	padding-top:.2rem;
+    font-size: .15rem;
+}
+.bykuang .top3 a{
+    float: right;
+}
+.bykuang .top4{
+	padding-top:.4rem;
+}
+.bykuang .top4 button{
+    width: 100%;
+    height: .4rem;
+    background: #a68f4c;
+    color: #fff;
+    font-size: .16rem;
+    border-radius: .5rem;
+}
+.bykuang .top3 .jizhu{
+    float: left;
+	color:#8c8c8c;
+}
+.bykuang .top3 .jizhu input{
+    -webkit-appearance: checkbox;
+}
+.bykuang .top5{
+	padding-top:.2rem;
+}
+.bykuang .top5 button{
+    width: 100%;
+    height: .4rem;
+    background: #a68f4c;
+    color: #fff;
+    font-size: .16rem;
+    border-radius: .5rem;
+}
+.wangji{
+    position: fixed;
+    left: 50%;
+    bottom: .1rem;
+    z-index: 20001;
+    width: 3.55rem;
+    height: auto;
+    text-align: center;
+    transform: translate(-50%,-0%);
+}
+.wangji .zhaohui{
+    height: .45rem;
+    background: rgba(255,255,255,.9);
+    border-radius: .1rem;
+    line-height: .45rem;
+    font-size: .15rem;
+}
+.wangji .quxiao{
+	height: .45rem;
+    background: #fff;
+    border-radius: .1rem;
+    line-height: .45rem;
+    font-weight: bold;
+    font-size: .15rem;
+    margin-top: .06rem;
+}
+@keyframes top{
+	
+	0%{
+	-webkit-transform: translate3d(0,80px,0);
+    -moz-transform: translate3d(0,80px,0);
+    -o-transform: translate3d(0,80px,0);
+    transform: translate3d(0,80px,0);
+    opacity: 0;
+    filter: alpha(opacity=0);
+	}
+	100%{
+	-webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    opacity: 1;
+    filter: alpha(opacity=100);
+	}
+}
+
+
+
+

@@ -1,0 +1,240 @@
+@charset "utf-8";
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:none;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+h1{font-size:18px;}
+h2{font-size:16px;}
+h3{font-size:14px;}
+q:before,q:after{content:'';}
+abbr,acronym{border:none;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,button,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+select,input,button,textarea{font:100% Tahoma,Arial,sans-serif;}
+table{font-size:inherit;}
+pre,code,kbd,samp,tt{font-family:'Courier New',Courier,monospace;}
+small{font-size:100%;}
+abbr,acronym{border-bottom:1px dotted;cursor:help;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+hr{color:#D1D7DC;background-color:#D1D7DC;border:none;height:1px;}
+html{height:100%;}
+body{font-size:12px;line-height:1.5;font-family:Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Hiragino Sans GB W3,WenQuanYi Micro Hei,sans-serif;color:#555;height:100%;background-color:#FFF;min-width: 1280px;}
+a{color:#484848;text-decoration:none;  }
+a:hover{color:#847B5F;}
+a.disable{color:#999;}
+a.disable:hover{text-decoration:none;cursor:default;}
+.clearfix:after{content:".";display:block;height:0;clear:both;overflow:hidden;}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #1c1727;
+}
+.test-header{
+    background-color: #1c1727;
+    height: 82px;
+    padding: 14px 0;
+    box-sizing: border-box;
+}
+.test-logo{
+    float: left;
+    width: 182px;
+    height: 55px;
+    background-image: url("/static/images/by_logo_bl.png");
+    background-size: 125px 55px;
+    background-repeat: no-repeat;
+}
+.test-service{
+    float: right;
+    line-height: 37px;
+    font-size: 18px;
+    color: #101010;
+    padding-left: 40px;
+    background: url("../images/online-service.png") no-repeat left center;
+}
+.test-service:hover{
+    color: #101010;
+}
+.test-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+    /*background-image: url("../images/content-bg.jpg");*/
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.test-title .h1{
+    font-size: 40px;
+    color: #fff;
+}
+.test-title .h2{
+    color: rgba(255,255,255,0.42);
+    font-size: 24px;
+}
+.test-wrap{
+    min-height: 192px;
+}
+.test-main .li{
+    margin-top: 30px;
+}
+.test-main .login-url,.progress-box,.test-main .link{
+    vertical-align: middle;
+}
+.test-main .login-url{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.test-main .login-url .color{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+.test-main .login-url .green{
+    color: #62d9ca;
+}
+.test-main .login-url .yellow{
+    color: #ffcb4e;
+}
+.test-main .login-url .red{
+    color: #ee6c80;
+}
+.test-main .li .link{
+    display: inline-block;
+    background-color: rgba(255, 203, 78, 0.7);
+    width: 200px;
+    line-height: 44px;
+    color: #1b1134;
+    font-size: 18px;
+    border-radius: 22px;
+}
+.test-main .li .link:hover, .test-main .li .active {
+    background-color:  rgba(255, 203, 78, 1);
+}
+.progress-box{
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 602px;
+    padding: 5px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-right: 28px;
+}
+.progress-box .progress{
+    width: 0;
+    height: 28px;
+    border-radius: 14px;
+    background-image: url("../images/progress.png");
+}
+
+.test-remind{
+    padding-top: 70px;
+    padding-right: 20px;
+}
+.test-remind .progress-box .progress{
+    background-image: -moz-linear-gradient( 176deg, rgb(91,216,207) 24%, rgb(159,228,163) 35%, rgb(227,239,118) 44%, rgb(239,186,135) 75%, rgb(237,82,125) 100%);
+    background-image: -webkit-linear-gradient( 176deg, rgb(91,216,207) 24%, rgb(159,228,163) 35%, rgb(227,239,118) 44%, rgb(239,186,135) 75%, rgb(237,82,125) 100%);
+    background-image: -ms-linear-gradient( 176deg, rgb(91,216,207) 24%, rgb(159,228,163) 35%, rgb(227,239,118) 44%, rgb(239,186,135) 75%, rgb(237,82,125) 100%);
+    animation: testAnimate 1.2s infinite;
+}
+@keyframes testAnimate {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.test-remind .text{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+.test-status{
+    padding-right: 46px;
+    margin-top: 50px;
+}
+.test-status .wrap{
+    display: inline-block;
+}
+.test-status .wrap{
+    width: 602px;
+    margin: 0 auto;
+    line-height: 42px;
+    border-radius: 21px;
+    background-color: rgba(255,255,255,0.17);
+    text-align: center;
+    color: rgba(252,252,252,0.63);
+}
+.test-status .wrap span{
+    vertical-align: middle;
+}
+.test-status .wrap .circle{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.test-status .wrap .green{
+    background-color: #62d9ca;
+}
+.test-status .wrap .yellow{
+    background-color: #ffcb4e;
+}
+.test-status .wrap .red{
+    background-color: #ee6c80;
+}
+
+.test-footer{
+    background-color: #1c1727;
+    padding: 30px;
+}
+.test-footer .li{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    text-align: center;
+}
+.test-footer .li .icon{
+    width: 68px;
+    height: 68px;
+    display: inline-block;
+}
+.test-footer .li .icon-1{
+    background-image: url("../images/icon-1.png");
+}
+.test-footer .li .icon-2{
+    background-image: url("../images/icon-2.png");
+}
+.test-footer .li .icon-3{
+    background-image: url("../images/icon-3.png");
+}
+.test-footer .li .icon-4{
+    background-image: url("../images/icon-4.png");
+}
+.test-footer .li .text-1{
+    color: #ffcb4e;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.test-footer .li .text-2{
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+}
+.test-img{
+    display: none;
+}

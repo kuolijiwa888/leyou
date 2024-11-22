@@ -1,0 +1,279 @@
+button,input{outline: none;}
+.hemai_top{
+	padding-top:.45rem;
+}
+.hemai_top .hemai_top_1{
+    overflow: hidden;
+}
+.hemai_top .hemai_top_1 span.hm_title{
+    display: inline-block;
+    font-size: .16rem;
+    margin-left: .1rem;
+    margin-top: .2rem;
+    font-weight: bold;
+    color: black;
+}
+.hemai_top .hemai_top_1 .hm_list{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgb(119, 119, 119);
+    float: right;
+    margin: .1rem .1rem .1rem 0;
+    font-size: .14rem;
+    border-radius: .04rem;
+    padding: .0375rem;
+}
+.hemai_top .hemai_top_1 .hm_list .hm_list_1{
+    display: block;
+    padding: .05rem .1rem;
+}
+.hemai_top .hemai_top_1 .hm_list .hm_list_1 .hm_input{
+    width: 80%;
+    height: .19rem;
+    background: #e9e9e9;
+    color: rgb(119, 119, 119);
+    font-size: .14rem;
+}
+.hemai_top .shareCon .shareInfo{
+	box-shadow: 0 .02rem .12rem 0 rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin: .05rem auto;
+    font-size: .12rem;
+    color: #777;
+    min-height: 1.3rem;
+    border-radius: .04rem;
+}
+.hemai_top .shareCon .shareInfo.stop{
+    background-color: #e2818117;
+}
+.hemai_top .shareCon .shareInfo.start{
+    background-color: #81e29a1a;
+}
+.shareInfo .title{
+    height: .62rem;
+    padding: .1rem .1rem .05rem .1rem;
+}
+.shareInfo .title .avatar{
+    width: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    color: #0094c0;
+    margin: auto;
+    margin-right: .1rem;
+}
+.shareInfo .title .avatar .circular--portrait{
+    position: relative;
+    width: .6rem;
+    height: .6rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.shareInfo .title .avatar .circular--portrait img{
+    width: 100%;
+    height: auto;
+}
+.shareInfo .line{
+    line-height: .2rem;
+    padding: 0 .1rem;
+}
+.shareInfo .line .issue{
+    float: right;
+}
+.shareInfo .line .hm_button.stop{
+    background-color: #e28181;
+    border: none;
+    color: white;
+    font-size: .12rem;
+    width: .7rem;
+    height: .25rem;
+    line-height: .25rem;
+    border-radius: .04rem;
+}
+.shareInfo .line .hm_button.start{
+    background-color: #81e29a;
+    border: none;
+    color: white;
+    font-size: .12rem;
+    width: .7rem;
+    height: .25rem;
+    line-height: .25rem;
+    border-radius: .04rem;
+}
+.shareInfo .line .bao{
+	background: #FF9800;
+    color: #fff;
+    border-radius: 50%;
+    padding: .02rem .04rem;
+    width: .12rem;
+    height: .2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.hm_cai_tc{
+    overflow: hidden;
+    width: auto;
+    min-width: 2.25rem;
+    max-width: 2.25rem;
+    position: fixed;
+    border-radius: .08rem;
+    background-color: #f4f4f4;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.hm_cai_tc .hm_cai_tc_title{
+    height: .35rem;
+    background-color: rgb(67, 67, 84);
+    text-align: center;
+    line-height: .35rem;
+    font-size: .16rem;
+}
+.hm_cai_tc .hm_cai_tc_notice{
+    max-height: 60vh;
+    overflow-y: auto;
+    flex-direction: column;
+}
+.hm_cai_tc .hm_cai_tc_notice .notice_start{
+    position: relative;
+    padding: .075rem .1375rem;
+    color: #777;
+    font-size: .15rem;
+    border-bottom: .01rem solid #0000000a;
+    display: flex;
+    justify-content: space-between;
+}
+.hm_cai_tc .hm_cai_tc_notice .notice_start.active{
+    color: #434354;
+}
+.hm_cai_tc .hm_cai_tc_notice .notice_start:after{
+    content: '\e78b';
+}
+.hm_cai_tc .hm_cai_tc_notice .notice_start.active:after{
+    content: '\e644';
+}
+.hm_xq{
+    min-width: 3rem;
+    max-width: 3rem;
+    height: 58vh;
+    overflow: hidden;
+    width: auto;
+    position: fixed;
+    border-radius: .04rem;
+    background-color: #fff;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.hm_xq .hm_xq_title{
+    height: .35rem;
+    background-color: #f4586e;
+    text-align: center;
+    line-height: .35rem;
+    font-size: .16rem;
+}
+.hm_xq .hm_xq_notice{
+	font-size:.12rem;
+	color:#777;
+    height: 47vh;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.hm_xq .hm_xq_notice .hm_xq_notice_middle{
+    flex: 1;
+    overflow-y: auto;
+    position: relative;
+    background-color: #fff;
+    border: .01rem solid #f3f3f3;
+}
+.hm_xq .hm_xq_notice .hm_xq_notice_middle .hm_xq_notice_middle_1{
+    text-align: center;
+    border-top: .01rem solid #f3f3f3;
+}
+.hm_xq .hm_xq_notice .hm_xq_notice_middle .hm_xq_notice_middle_1 .notice_middle_title{
+    padding: .03625rem .06750rem .03625rem 0;
+    min-height: .3275rem;
+    line-height: .3275rem;
+	display:inline-block;
+}
+.hm_xq .hm_xq_notice .hm_xq_notice_middle .hm_xq_notice_middle_1 .notice_middle_notice{
+    padding: .03625rem .06750rem .03625rem 0;
+    min-height: .3275rem;
+    line-height: .3275rem;
+	display:inline-block;
+    max-width: 2.4rem;
+}
+.hm_xq_notice_haoma {
+	text-align:center;
+}
+.hm_xq_notice_haoma .haoma_title{
+    padding: .1rem 0;
+    border-bottom: .01rem solid #f3f3f3;
+    border-top: .01rem solid #f3f3f3;
+}
+.hm_xq_notice_haoma .haoma_notice{
+    padding: .1rem;
+    padding-bottom: .45rem;
+}
+.hm_xq_goumai{
+    height: .27rem;
+    font-size: .14rem;
+    padding: .1rem;
+    text-align: center;
+}
+.hm_xq_goumai input{
+    border: .01rem solid #888;
+    border-radius: .04rem;
+    width: .5rem;
+    height: .24rem;
+    text-align: center;
+}
+.hm_xq_bottom{
+    margin-top: .1rem;
+    background: #fff;
+    position: absolute;
+    bottom: -.01rem;
+    width: 100%;
+}
+.hm_xq_bottom button{
+    width: 50%;
+    height: .375rem;
+    font-size: .14rem;
+}
+.hm_xq_bottom button.noe{
+    background-color: #ffffff;
+    color: #777;
+    border-top: .01rem solid #7777771f;
+}
+.hm_xq_bottom button.two{
+	color:#fff;
+    background-color:#f4586e;
+}
+.pagehemai{
+    font-size:.12rem;
+    padding-bottom: .1rem;
+    padding-top: .1rem;
+    text-align: center;
+}
+.pagehemai a{
+    display: inline-block;
+    padding: .05rem .1rem;
+    border: .01rem solid #e8e8e8;
+    background: #e8e8e8;
+    border-radius: 0.04rem;
+    margin-left: .05rem;
+    font-size: .12rem;
+}
+
+
+
+
+
+

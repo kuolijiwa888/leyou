@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<title>乐游线路检测</title>
+		<link media="all" type="text/css" rel="stylesheet" href="static/css/animate.css">
+		<link media="all" type="text/css" rel="stylesheet" href="static/css/index.css">
+		<link href="/ascn/css/reg.css" media="all" type="text/css" rel="stylesheet">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	</head>
+	<body style="background-image: linear-gradient(-180deg, #1c1727 0%, #27203e 100%);">
+	<div class="ocean">
+		<div class="wave"></div>
+		<div class="wave"></div>
+	</div>
+		<div class="test-header">
+			<div class="container">
+				<a href="javascript:;" class="test-logo"></a>
+			<!--	<a href="javascript:;" class="test-service online-server">在线客服</a>-->
+			</div>
+		</div>
+		<div class="test-content">
+			<div class="test-title">
+				<div class="h1">乐游娱乐城线路检测中心</div>
+				<div class="h2">快速选择地址</div>
+			</div>
+			<div class="test-wrap">
+				<ul class="test-main"></ul>
+				<div class="test-remind">
+					<div class="progress-box">
+						<div class="progress"></div>
+					</div>
+					<div class="text">测速中...</div>
+				</div>
+			</div>
+			<div class="test-status">
+				<div class="wrap">
+					<span>访问状态说明</span>
+					<span class="circle green"></span>
+					<span>很好</span>
+					<span class="circle yellow"></span>
+					<span>一般</span>
+					<span class="circle red"></span>
+					<span>较差</span>
+				</div>
+			</div>
+		</div>
+		<div class="test-img"></div>
+
+		<script src="static/js/base-all.min.js"></script>
+		<script src="static/js/jquery.lavalamp.min.js"></script>
+		<script>
+			(function($) {
+				//地址域名
+				var dataIm = {
+					"data":[                        
+                        {"url":"http://lyweb.juxing168.xyz"},
+                        {"url":"http://lymobile.juxing168.xyz"},
+                        {"url":"http://lyweb.108108.wang"},
+						{"url":"http://lymobile.108108.wang	"},
+                        {"url":"http://lyweb.leyou88.cn"},
+                        {"url":"http://lymobile.leyou88.cn"},
+                        {"url":"http://lyweb.juxing88.cn"},
+                        {"url":"http://lymobile.juxing88.cn"}
+					]
+					}
+				successCallBack(dataIm.data);
+
+				function successCallBack(urlArray) {
+					var testImg = $('.test-img'),
+						testMain = $('.test-main'),
+						ImgHtml = '',
+						liArray = [],
+						timer = '',
+						timer_1 = '',
+						imgNum = 0,
+						timerNum = 0,
+						imgInfoArr = [],
+						sTime = new Date().getTime();
+					//渲染图片html
+					for(var i = 0; i<urlArray.length; i++){
+						ImgHtml += '<img src="' + urlArray[i].url + '/ascn/images/by_logo_bl.png?'+sTime+'" data-url="' + urlArray[i].url + '">';
+					}
+					
+					testImg.html(ImgHtml);
+			
+					testImg.find('img').load(function() {
+						var endTime = new Date().getTime(),
+							cTime = endTime - sTime;
+						imgNum++;
+						imgInfoArr.push({
+							url: $(this).data('url'),
+							cTime: cTime
+						});
+					});
+					//每隔500ms检测所有的图片是否加载完成，如4秒内未加载完成，不显示该域名
+					timer = setInterval(function() {
+						timerNum++;
+						if(imgNum === urlArray.length || timerNum===8) {
+							clearInterval(timer);
+							$('.test-remind').hide();
+							//排序
+							imgInfoArr.sort(function(a, b) {
+								return a.cTime - b.cTime
+							});
+							//渲染测速进度条html
+							imgInfoArr.forEach(function(item, i) {
+								liArray.push('<li class="li">');
+								liArray.push('<span class="login-url">登录地址' + (i + 1) + '：<em class="color">' + item.cTime + 'ms</em></span>');
+								liArray.push('<div class="progress-box"><div class="progress"></div></div>');
+								if(i === 0) {
+									liArray.push('<a href="' + item.url + '" class="link active">跳转进入(<span id="countDownNum">10</span>s)</a>');
+								} else {
+									liArray.push('<a href="' + item.url + '" class="link">跳转进入</a>');
+								}
+								liArray.push('</li>');
+							});
+							testMain.html(liArray.join(''));
+							//为进度条添加动画
+							setTimeout(function() {
+								testMain.find('.li').each(function(i, item) {
+									if(i === 0) {
+										$(item).find('.progress').animate({
+											'width': '100%'
+										}, 1200);
+										$(item).find('.color').addClass('green');
+									} else {
+										$(item).find('.progress').animate({
+											'width': progress(imgInfoArr[i].cTime)
+										}, 1200);
+										$(item).find('.color').addClass(color(progress(imgInfoArr[i].cTime)));
+									}
+								});
+							}, 100);
+							//5s倒计时进入登录页
+							timer_1 = setInterval(function() {
+								var oNum = $('#countDownNum');
+								if(+oNum.text() === 0) {
+									clearInterval(timer_1);
+									location.href = imgInfoArr[0].url;
+								} else {
+									oNum.text(+oNum.text() - 1);
+								}
+							}, 1000);
+						}
+					}, 500);
+
+					//进度条的长度
+					function progress(cTime) {
+						//进度条总长度
+						var w = 590,
+							long = w - (cTime - imgInfoArr[0].cTime) * 5;
+						if(long < 30) {
+							long = 30;
+						}
+						return long;
+					}
+					//网络速度文字的颜色
+					function color(width) {
+						//进度条总长度
+						var w = 590;
+						if(width > 2 * w / 3) {
+							return 'green'
+						} else if(width < w / 3) {
+							return 'red'
+						} else {
+							return 'yellow'
+						}
+					}
+				}
+			})(jQuery);
+		</script>
+
+
+	</body>
+
+</html>

@@ -1,0 +1,269 @@
+.new-game-list > a{
+    display: inline-block;
+}
+.new-game-list{
+    line-height: 1.5;
+}
+.apilottery{
+    width: 1250px;
+    margin: 0 auto;
+}
+.box-background{
+	position: relative;
+    width: 285px;
+    height: 175px;
+    margin: 28px 12px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.box-background .box-icon{
+	display: block;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    z-index: 1;
+}
+.box-background .box-icon img{
+	width: 85px;
+    height: 85px;
+}
+.box-background .box-icon-tags{
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+.box-background .box-wrap{
+    background: linear-gradient(180deg, #fff 0%, #fff6f6 100%);
+    border-radius: 10px;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+.box-background .box-wrap .box-top .box-detail{
+    margin-top: 8px;
+    margin-left: 115px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.box-background .box-wrap .box-top .box-detail li{
+    margin-top: 4px;
+}
+.box-background .box-wrap .box-top .box-detail li h3{
+    color: #777;
+    font-size: 16px;
+}
+.box-background .box-wrap .box-top .box-detail li .numero{
+	line-height: 16px;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #999999;
+}
+.box-background .box-wrap .box-top .box-win-number{
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid #e1e1e1;
+    display: flex;
+}
+.box-background .box-wrap .box-top .box-win-number .win-number-title{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    color: #999999;
+    flex: 1;
+    line-height: 84px;
+}
+.win-number-balls{
+    display: inline-block;
+    width: 72%;
+    padding: 28px 0;
+}
+.win-number-balls .lottery-numbers{
+    width: 100%;
+}
+.win-number-balls .lottery-numbers .ball-container{
+    display: inline-block;
+}
+.win-number-balls .lottery-numbers span{
+    box-shadow: none;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+    background: #fff;
+    color: #888888;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.box-background .box-wrap .box-bottom{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 86px;
+    transition: .2s ease-in-out;
+    background: #2b303b;
+}
+.box-background .box-wrap .box-bottom div{
+    display: inline-block;
+    margin: 25px 15px 0;
+    position: relative;
+    width: 110px;
+    height: 37px;
+    line-height: 37px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: #2b303b;
+    color: #fff;
+}
+.box-background .box-wrap:hover .box-bottom{
+    top: 90px;
+}
+.box-background .box-wrap .box-top .box-detail li.box-information span{
+    display: inline-block;
+	color: #999999;
+    font-size: 16px;
+}
+.win-number-balls .lottery-numbers .PK10ball{
+    line-height: 27px;
+    border-radius: 30%;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+	margin:2px;
+}
+.win-number-balls.winNoLHC, .win-number-balls.winNoPK10{
+    padding: 12px 0;
+}
+.win-number-balls .lottery-numbers .PK10ball.ball01{
+    background: -owg-linear-gradient(to bottom, #fee40d, #f1d800);
+    background: linear-gradient(to bottom, #fee40d, #f1d800);
+    box-shadow: 0 2px 6px rgba(215, 187, 0, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball02{
+    background: -owg-linear-gradient(to bottom, #0d96ff, #0089f2);
+    background: linear-gradient(to bottom, #0d96ff, #0089f2);
+    box-shadow: 0 2px 6px rgba(18, 191, 255, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball03{
+    background: -owg-linear-gradient(to bottom, #787878, #6b6b6b);
+    background: linear-gradient(to bottom, #787878, #6b6b6b);
+    box-shadow: 0 2px 6px rgba(113, 113, 113, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball04{
+    background: -owg-linear-gradient(to bottom, #ffb20d, #f2a500);
+    background: linear-gradient(to bottom, #ffb20d, #f2a500);
+    box-shadow: 0 2px 6px rgba(255, 169, 18, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball05{
+    background: -owg-linear-gradient(to bottom, #00ddd0, #00ddd0);
+    background: linear-gradient(to bottom, #00ddd0, #00ddd0);
+    box-shadow: 0 2px 6px rgba(0, 212, 170, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball06{
+	background: -owg-linear-gradient(to bottom, #620dff, #5600f2);
+    background: linear-gradient(to bottom, #620dff, #5600f2);
+    box-shadow: 0 2px 6px rgba(110, 78, 201, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball07{
+    background: -owg-linear-gradient(to bottom, #bcbcbc, #afafaf);
+    background: linear-gradient(to bottom, #bcbcbc, #afafaf);
+    box-shadow: 0 2px 6px rgba(148, 148, 148, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball08{
+    background: -owg-linear-gradient(to bottom, #ff0d0d, #f20000);
+    background: linear-gradient(to bottom, #ff0d0d, #f20000);
+    box-shadow: 0 2px 6px rgba(255, 18, 57, 0.44);
+}
+.win-number-balls .lottery-numbers .PK10ball.ball09{
+    background: -owg-linear-gradient(to bottom, #ad0d0d, #a10000);
+    background: linear-gradient(to bottom, #ad0d0d, #a10000);
+    box-shadow: 0 2px 6px rgba(103, 0, 17, 0.44);
+}
+
+.win-number-balls .lottery-numbers .PK10ball.ball10{
+    background: -owg-linear-gradient(to bottom, #39ba00, #39ba00);
+    background: linear-gradient(to bottom, #39ba00, #39ba00);
+    box-shadow: 0 2px 6px rgba(97, 165, 0, 0.44);
+}
+.win-number-balls .lottery-numbers.LHC{
+    width: 108px;
+    display: inline-block;
+}
+.win-number-balls .lottery-numbers.LHC:last-child{
+    width: 55px;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+}
+.win-number-balls .lottery-numbers .lhc{
+    border: none;
+    margin: 2px;
+}
+.win-number-balls .lottery-numbers .lhc.lhc_05,.win-number-balls .lottery-numbers .lhc.lhc_06,.win-number-balls .lottery-numbers .lhc.lhc_11,.win-number-balls .lottery-numbers .lhc.lhc_16,.win-number-balls .lottery-numbers .lhc.lhc_17,.win-number-balls .lottery-numbers .lhc.lhc_21,.win-number-balls .lottery-numbers .lhc.lhc_22,.win-number-balls .lottery-numbers .lhc.lhc_27,.win-number-balls .lottery-numbers .lhc.lhc_28,.win-number-balls .lottery-numbers .lhc.lhc_32,.win-number-balls .lottery-numbers .lhc.lhc_33,.win-number-balls .lottery-numbers .lhc.lhc_38,.win-number-balls .lottery-numbers .lhc.lhc_39,.win-number-balls .lottery-numbers .lhc.lhc_43,.win-number-balls .lottery-numbers .lhc.lhc_44,.win-number-balls .lottery-numbers .lhc.lhc_49{
+    background: -owg-linear-gradient(to bottom, #39ba00, #39ba00);
+    background: linear-gradient(to bottom, #39ba00, #39ba00);
+    box-shadow: 0 2px 6px rgba(97, 165, 0, 0.44);
+	font-size:15px;
+    color: #fff;
+}
+.win-number-balls .lottery-numbers .lhc.lhc_01,.win-number-balls .lottery-numbers .lhc.lhc_02,.win-number-balls .lottery-numbers .lhc.lhc_07,.win-number-balls .lottery-numbers .lhc.lhc_08,.win-number-balls .lottery-numbers .lhc.lhc_12,.win-number-balls .lottery-numbers .lhc.lhc_13,.win-number-balls .lottery-numbers .lhc.lhc_18,.win-number-balls .lottery-numbers .lhc.lhc_19,.win-number-balls .lottery-numbers .lhc.lhc_23,.win-number-balls .lottery-numbers .lhc.lhc_24,.win-number-balls .lottery-numbers .lhc.lhc_29,.win-number-balls .lottery-numbers .lhc.lhc_30,.win-number-balls .lottery-numbers .lhc.lhc_34,.win-number-balls .lottery-numbers .lhc.lhc_35,.win-number-balls .lottery-numbers .lhc.lhc_40,.win-number-balls .lottery-numbers .lhc.lhc_45,.win-number-balls .lottery-numbers .lhc.lhc_46{
+    background: -owg-linear-gradient(to bottom, #ff0d0d, #f20000);
+    background: linear-gradient(to bottom, #ff0d0d, #f20000);
+    box-shadow: 0 2px 6px rgba(255, 18, 57, 0.44);
+	font-size:15px;
+    color: #fff;
+}
+.win-number-balls .lottery-numbers .lhc.lhc_03,.win-number-balls .lottery-numbers .lhc.lhc_04,.win-number-balls .lottery-numbers .lhc.lhc_09,.win-number-balls .lottery-numbers .lhc.lhc_10,.win-number-balls .lottery-numbers .lhc.lhc_14,.win-number-balls .lottery-numbers .lhc.lhc_15,.win-number-balls .lottery-numbers .lhc.lhc_20,.win-number-balls .lottery-numbers .lhc.lhc_25,.win-number-balls .lottery-numbers .lhc.lhc_26,.win-number-balls .lottery-numbers .lhc.lhc_31,.win-number-balls .lottery-numbers .lhc.lhc_36,.win-number-balls .lottery-numbers .lhc.lhc_37,.win-number-balls .lottery-numbers .lhc.lhc_41,.win-number-balls .lottery-numbers .lhc.lhc_42,.win-number-balls .lottery-numbers .lhc.lhc_47,.win-number-balls .lottery-numbers .lhc.lhc_48{
+	background: -owg-linear-gradient(to bottom, #0d96ff, #0089f2);
+    background: linear-gradient(to bottom, #0d96ff, #0089f2);
+    box-shadow: 0 2px 6px rgba(18, 191, 255, 0.44);
+	font-size:15px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

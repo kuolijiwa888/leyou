@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*皮肤*/
+
+
+
+
+.skin_page .btn_default { display: inline-block; width: 102px; height: 36px; line-height: 36px; text-align: center;border-radius:4px; font-size: 14px; color: #fff; background-color: #8e8e8e;margin:0px 15px 0 0;}
+.skin_page .btn_default:hover {     background-color: #656363;}
+
+.skin_page .btn_cancel { display: inline-block; width: 52px; height: 36px; line-height: 36px; text-align: center;border-radius:4px; font-size: 14px; color: #fff;background-color: #8e8e8e;}
+.skin_page .btn_cancel:hover {     background-color: #656363;}
+
+
+
+.skin_page .btn_default i,.skin_page .btn_set i {font-size: 19px;width: 18px; height: 18px; display: inline-block; margin-right: 5px;}
+
+
+
+.beijin li a { position: relative; width: 114px; height: 114px; display: block;border-radius: 6px;}
+.beijin li a img {    position: absolute;left: 2px;top: 2px;width: 110px; height: 110px; border: 0;}
+
+
+.nsc_background01 { background:url("/ascn/images/bj1.jpg");}
+.nsc_background02 { background:url("/ascn/images/bj2.gif");}
+.nsc_background03 { background:url("/ascn/images/bj3.png");background-size: 100%;}
+.nsc_background04 { background:url("/ascn/images/bj4.png");background-size: 100%;}
+.nsc_background05 { background:url("/ascn/images/bj5.png");background-size: 100%;}
+.nsc_background06 { background:url("/ascn/images/bj6.png");background-size: 100%;}
+.nsc_background07 { background:url("/ascn/images/bj7.jpg");background-size: 100%;}
+.nsc_background08 { background:url("/ascn/images/bj8.jpg");background-size: 100%;}

@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2138551 */
+  src: url('//at.alicdn.com/t/font_2138551_eov55fnq6vc.eot');
+  src: url('//at.alicdn.com/t/font_2138551_eov55fnq6vc.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2138551_eov55fnq6vc.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2138551_eov55fnq6vc.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2138551_eov55fnq6vc.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2138551_eov55fnq6vc.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size: 14px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width:0;
+    -moz-osx-font-smoothing: grayscale;
+}
+em{
+    font-style: normal;
+}
+.ant-card{
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    transition: all .3s;
+}
+.ant-card .ant-card-notice{
+    padding: 20px;
+}
+.ant-card .ant-card-notice .ant-card-ok{
+    display: flex;
+}
+.ant-card .ant-card-notice .ant-card-ok .ant-card-notice-user{
+    flex: 1;
+    box-sizing: border-box;
+}
+.ant-card-ok .ant-card-notice-user span{
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    background: #ccc;
+    border-radius: 50%;
+}
+.ant-card-ok .ant-card-notice-user img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.ant-card .ant-card-notice .ant-card-ok .ant-card-notice-group{
+    white-space: nowrap;
+    text-align: right;
+    flex-shrink: 0;
+}
+.ant-card .ant-card-notice .ant-card-ok .ant-card-notice-group .notice-group{
+    display: inline-block;
+    margin: 0 4px 0 15px;
+}
+.ant-card .ant-card-notice .ant-card-ok .ant-card-notice-group .notice-group .span-icon{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0!important;
+    display: inline-block;
+}
+.ant-card .ant-card-notice .ant-card-ok .ant-card-notice-group .notice-group .span-icon i{
+    font-size:12px;
+}
+.ant-tag-blue{
+    color: #1890ff;
+    background: #e6f7ff;
+    border:1px solid #91d5ff;
+}
+.ant-tag-orange{
+    color: #fa8c16;
+    background: #fff7e6;
+    border:1px solid #ffd591;
+}
+.ant-tag-green{
+    color: #52c41a;
+    background: #f6ffed;
+    border:1px solid #b7eb8f;
+}    
+.ant-tag-pink{
+    color: #eb2f96;
+    background: #fff0f6;
+    border:1px solid #ffadd2;
+}
+.ant-tag-red{
+    color: #f5222d;
+    background: #fff1f0;
+    border:1px solid #ffa39e;
+}
+.bootom-zst{
+    padding:20px ;
+    background: #fff;
+}
+.bootom-zst .fenlei span{
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+.bootom-zst .fenlei span.layui-form-onswitch a{
+    color: #fff;
+}  
+    
+    
+    
+    
+    

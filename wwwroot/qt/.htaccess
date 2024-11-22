@@ -1,0 +1,162 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+
+DirectoryIndex index.html start.php index.php 
+ErrorDocument 404 /404.html
+order deny,allow
+
+Options +FollowSymlinks
+ RewriteEngine On
+
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+
+ RewriteRule ^(.*)$ start.php/$1 [QSA,PT,L]
+ RewriteRule ^(.*)lottery$ index.lottery.do
+ RewriteRule ^(.*)login$ public.login.do
+ RewriteRule ^(.*)mobile$ index.mobile.do
+ RewriteRule ^(.*)help$ news.lists.catid.33.do
+
+ RewriteRule ^(.*)home$ index.index.do
+ RewriteRule ^(.*)ashome$ index.home.do
+ RewriteRule ^(.*)lotteryhemai$ index.lotteryhemai.do
+ RewriteRule ^(.*)game/_ajax/details/(.*)$ "$1Game.details?no=$2"
+ RewriteRule ^(.*)memberCenter/personalInfo$ member.ziliao.do
+ RewriteRule ^(.*)memberCenter/securityCenter$ member.index.do
+ RewriteRule ^(.*)memberCenter/memberlog$ member.memberlog.do
+ RewriteRule ^(.*)memberCenter/manageBankcard$ member.bankcard.do
+ RewriteRule ^(.*)memberCenter/betRecord$ member.betrecord.do
+
+ RewriteRule ^(.*)memberCenter/BillRecord$ account.dealrecord.do
+ RewriteRule ^(.*)memberCenter/PLstatement$ account.todayloss.do
+ RewriteRule ^(.*)tools/_ajax/todayloss/(.*)$ "$1?m=Home&c=Account&a=todayloss&atime=$2"
+ 
+ RewriteRule ^(.*)memberCenter/Notice$ member.gglist.do
+ RewriteRule ^(.*)memberCenter/agentReport$ member.agent.do
+ RewriteRule ^(.*)payment/ebankPay$  account.quickrecharge.do
+ RewriteRule ^(.*)setSafePwd/withdraw$  member.bankcard.do
+ RewriteRule ^(.*)memberCenter/agentReport$ member.agent.do
+ RewriteRule ^(.*)verifyPwd$  Member.update_pass.do
+ RewriteRule ^(.*)ResetSafePwd$ Member.find_safepass.do  
+ RewriteRule ^(.*)verifySafePwd$ Member.update_safepass.do
+ RewriteRule ^(.*)ResetPhone$   Member.safephone.do
+ RewriteRule ^(.*)Bindmail$  Member.bindmail.do
+ RewriteRule ^(.*)memberCenter/ggshow/(.*)$  Member.ggshow.aid.$2.do
+ RewriteRule ^(.*)find_safepass_phone$  Member.find_safepass_phone.do
+ RewriteRule ^(.*)find_safepass_email$  Member.find_safepass_email.do
+ RewriteRule ^(.*)find_safepass_qq$  Member.find_safepass_qq.do
+ RewriteRule ^(.*)Bindmail$  Member.saveMail.do
+ RewriteRule ^(.*)forgetPaw$  Public.forgetPaw.do
+ RewriteRule ^(.*)forgetPaw1$  Public.forgetPaw1.do
+ RewriteRule ^(.*)forgetPaw2$  Public.forgetPaw2.do
+ RewriteRule ^(.*)forgetPaw3$  Public.forgetPaw3.do
+ RewriteRule ^(.*)dlsm$  member.dlsm.do
+ RewriteRule ^(.*)quota$  member.quota.do
+ RewriteRule ^(.*)memberCenter/yeb$  member.yeb.do
+ RewriteRule ^(.*)memberCenter/caidan$  member.caidan.do
+ RewriteRule ^(.*)yebCenter/index$  yeb.index.do
+ RewriteRule ^(.*)yebCenter/yebsy$  yeb.yebsy.do
+ RewriteRule ^(.*)yebCenter/yebhqcq$  yeb.yebhqcq.do
+ RewriteRule ^(.*)yebCenter/yebhqjl$  yeb.yebhqjl.do
+ RewriteRule ^(.*)yebCenter/yebdqcq$  yeb.yebdqcq.do
+ RewriteRule ^(.*)yebCenter/yebdqjl$  yeb.yebdqjl.do
+ RewriteRule ^(.*)yebCenter/yebzrhq$  yeb.yebzrhq.do
+ RewriteRule ^(.*)yebCenter/yebzrdq$  yeb.yebzrdq.do
+ RewriteRule ^(.*)yebCenter/yebzchq$  yeb.yebzchq.do
+ RewriteRule ^(.*)yebCenter/yebzcdq$  yeb.yebzcdq.do
+ RewriteRule ^(.*)yebCenter/yebzclx$  yeb.yebzclx.do
+	
+	
+	
+	
+ RewriteRule ^(.*)userCenter/rechargeWay$ account.rechargelist.do
+
+ RewriteRule ^(.*)userCenter/withdrawals$ account.withdrawals.do
+ RewriteRule ^(.*)userCenter/addbank$ member.addbank.do
+ RewriteRule ^(.*)userCenter/personalInfo$ member.personalinfo.do
+
+ RewriteRule ^(.*)userCenter/betRecord$ member.betrecord.do
+ 
+ RewriteRule ^(.*)userCenter/billRecord$ account.dealrecord.do
+ RewriteRule ^(.*)userCenter/agentCenter$ member.agent.do
+ RewriteRule ^(.*)userCenter/securityCenter$ member.setting.do
+ RewriteRule ^(.*)userCenter/PLstatement$ account.todayloss.do
+ RewriteRule ^(.*)userCenter/notice$  member.gglist.do
+ RewriteRule ^(.*)userCenter/noticeDetail\?noticeId=(.+)$ member.ggshow.aid.$1.do
+ RewriteRule ^(.*)loginout$  public.loginout.do
+ RewriteRule ^(.*)register$  public.register.do
+ RewriteRule ^(.*)apublic$  apublic.login.do
+ RewriteRule ^(.*)howToPlay/OG10K3$  Game.howtoplay.name.sfks.cz.k3
+ RewriteRule ^(.*)MemberCenter$  Member.index.do
+ RewriteRule ^(.*)gameChart/(.*)/(.*)$ Trend.$2.code.$3.do
+ 
+ RewriteRule ^(.*)lotterys/(.*)/(.*)$ Game.$2?code=$3
+ RewriteRule ^(.*)lotterys_hot/(.*)/(.*)/(.*)$ Game.$2?code=$3&isct=$4
+
+ RewriteRule ^(.*)Game/paly_(.*)/type_(.*)$ Zhenren.login.plat_type.$2.game_type.$3.do
+
+ RewriteRule ^(.*)lottery/(.*)/(.*)$ game.$2.code.$3.do
+ RewriteRule ^(.*)lotteryMore$ index.lotteryhall.do
+ RewriteRule ^(.*)lotteryAllhemai$ index.lotteryAllhemai.do
+ RewriteRule ^(.*)payment/ebankPay$ account.recharge1.do
+ RewriteRule ^(.*)payment/wxPay$ account.wxrecharge.do
+ RewriteRule ^(.*)payment/zfbPay$ account.zfbpay.do
+ RewriteRule ^(.*)discovery/newWinners/on$ Index.winners.do
+ RewriteRule ^(.*)forgetPwd$ public.forgetpaw.do
+ RewriteRule ^(.*)userCenter/normalPayBank$ account.recharge.do
+ RewriteRule ^(.*)userCenter/zfbPay$ account.zfbrecharge.do
+ RewriteRule ^(.*)userCenter/wxPay$ account.wxrecharge.do
+ RewriteRule ^(.*)userCenter/billRecord1$ account.dealrecord2.do
+ RewriteRule ^(.*)userCenter/xiaoxi$ Member.xiaoxi.do
+ RewriteRule ^(.*)userCenter/billRecord2$ account.dealrecord3.do
+ RewriteRule ^(.*)userbankname$ account.userbankname.do
+ RewriteRule ^(.*)safephone$ member.safephone.do
+ RewriteRule ^(.*)bindmail$ member.bindmail.do
+ RewriteRule ^(.*)userCenter/verifyPwd$ member.update_pass.do
+ RewriteRule ^(.*)userCenter/setSafePwd$ member.update_safepass.do
+ RewriteRule ^(.*)userCenter/manageBankcard$ member.bindcard.do
+ RewriteRule ^(.*)userCenter/safepass$ member.find_safepass.do
+ RewriteRule ^(.*)userCenter/withdraw$ member.addbank.do
+ RewriteRule ^(.*)howToPlay/(.*)$  Game.howtoplay.cz.$2.do
+ RewriteRule ^(.*)dealrecord/p/(.*)$ Account.dealrecord.p.$2.do
+ RewriteRule ^(.*)dealrecord2/p/(.*)$ "Account.dealrecord2.p.$2.do"
+ RewriteRule ^(.*)betrecord/p/(.*)$ "Member.betrecord.p.$2.do"
+ RewriteRule ^(.*)betRecord/itemselect/(.*)/p/(.*)$ "Member.betRecord.itemselect.$2.p.$3.do"
+ RewriteRule ^(.*)betrecord/itemselect/(.*)/p/(.*)$ "Member.betRecord.itemselect.$2.p.$3.do"
+ 
+ RewriteRule ^(.*)tools/_ajax/getBetRecord/(.*)/(.*)/(.*)$ $1Member.betRecord.name.$2.atime.$3.a_item.$4
+
+ RewriteRule ^(.*)tools/_ajax/queryBillRecords/(.*)/(.*)$ "$1?m=Home&c=Account&a=dealRecord&atime=$2&type=$3"
+ RewriteRule ^(.*)userCenter/Account/atime/(.*)$  "$1?m=Mobile&c=Account&a=dealRecord&atime=$2"
+ RewriteRule ^(.*)userCenter/Account2/atime/(.*)$  "$1?m=Mobile&c=Account&a=dealRecord2&atime=$2"
+ RewriteRule ^(.*)userCenter/Account3/atime/(.*)$  "$1?m=Mobile&c=Account&a=dealRecord3&atime=$2"
+ RewriteRule ^(.*)tools/_ajax/queryBillRecord$  account.dealrecord.do
+ RewriteRule ^(.*)tools/_ajax/queryRechargeRecord$  account.dealrecord2.do
+ RewriteRule ^(.*)tools/_ajax/queryWithdrawRecord$  account.dealrecord3.do
+ RewriteRule ^(.*)memberCenter/noticeDetail/(.*)$ member.ggshow.aid.$2.do
+ RewriteRule ^(.*)userCenter/betRecords/(.*)/(.*)$ Member.betRecord.itemselect.$2.atime.$3.do
+ RewriteRule ^(.*)userCenter/adad/(.*)$ Member.adad.trano.$2.do
+ RewriteRule ^(.*)userCenter/help$ Member.help.do
+ RewriteRule ^(.*)userCenter/bangdingqq$ Member.bangdingqq.do
+ RewriteRule ^(.*)trans$ Member.trans.do
+
+   
+ RewriteRule ^(.*)userCenter/noticeDetail/(.*)$ member.ggshow.aid.$2.do
+ RewriteRule ^(.*)userCenter/xiaoinfo/(.*)$ member.xiaoinfo.id.$2.do
+ RewriteRule ^(.*)userCenter/find_Phone$ member.find_safepass_phone.do
+ RewriteRule ^(.*)userCenter/find_email$ member.find_safepass_email.do
+ RewriteRule ^(.*)userCenter/find_qq$ member.find_safepass_qq.do
+ RewriteRule ^(.*)register/promotionInvite/(.*)$ "Public.register.linkid.$2
+ RewriteRule ^(.*)safepass2$ Member.safepass2.do
+ RewriteRule ^(.*)about/(.*)$ /News.lists.catid.30.showid.$2.do?About
+ RewriteRule ^(.*)byhelp$ /News.byhelp.do
+ RewriteRule ^(.*)byhelp/helptxt(.*)$ /News.helptxt$2.do
+ RewriteRule ^(.*)agent_index$ agent.index.do
+ RewriteRule ^(.*)register/linkid/(.*)$ Public.register.linkid.$2
+ RewriteRule ^(.*)dailyPrise(.*)$ activity.promotion.do
+ RewriteRule ^(.*)dailyPrise1(.*)$ activity.activitylist1.do
+ RewriteRule ^(.*)dailyPrise2(.*)$ activity.activitylist2.do
+ RewriteRule ^(.*)dailyPrise3(.*)$ activity.activitylist3.do
+ RewriteRule ^(.*)upgrade(.*)$ activity.everydayplus.do
+ RewriteRule ^(.*)userCenter/verifySafePwd(.*)$ public.forgetpaw1.userName.$2

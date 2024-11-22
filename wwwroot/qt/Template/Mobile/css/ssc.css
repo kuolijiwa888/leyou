@@ -1,0 +1,634 @@
+ol,ul{
+  margin: 0;
+  padding: 0;
+}
+.mobileGameTop .gameInfo{
+  font-size: 12px;
+  display: inline-block;
+  line-height: 13px;
+  text-align: left;
+  margin-top: 13px;
+}
+.mobileGameTop .gameType{
+    display: inline-block;
+    font-size: 16px;
+    border-radius: .2em;
+    border: 1px solid hsla(0,0%,100%,.5);
+    vertical-align: top;
+    height: 36px;
+    margin: 7px 0;
+    line-height: 33px;
+    /* padding: 0 .4em; */
+	cursor: pointer;
+}
+#showGameList .icon-sanjiaoxing{
+  font-size: 18px !important;
+}
+.lhc_he_color{
+	
+	color:#000;
+	}
+.mobileGameTop .gameType .icon-sanjiaoxing{
+    font-size: 19px;
+    transform: rotate(180deg);
+    transition: .6s;
+    display: inline-block;
+    color: #f0c930;
+}
+.mobileGameTop .play_select_insert{
+  position: fixed;
+  background: #fff;
+  z-index: 1;
+  display: none;
+  width: 100%;
+ margin-top: 2%;
+}
+.selectNmuverBox .selectNumberPei{
+  width: 20%;
+  text-align: center;
+  float:left;
+}
+.selectNmuverBox .selectNumberPei span{
+  display: block;
+  clear: both;
+  line-height: 35px;
+  font-size: 10px;
+}
+.lhc_sxTextUl{
+  overflow: hidden;
+  display: flex;
+  margin-left: 17px;
+  margin-top: -17px;
+}
+.lhc_sxTextUl .lhcsxText{
+  display: inline-block;
+  margin: 0px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+.lhcKaiGG{
+  float: left;
+  margin: 0 2px;
+}
+.lhcKaiGG span{
+  display: block;
+  font-size: 13px;
+}
+.lhcKaiGG em{
+  display: block;
+  font-size: 13px;
+}
+.lhc_red_color{
+  color: #f9adb0 !important;
+}
+.lhc_blue_color{
+  color: #218ddd !important;
+}
+.lhc_green_color{
+  color: #38b366 !important;
+}
+.lhc_red_bg{
+    background: linear-gradient(0deg,#f87b7e 0,#dc3b40 75%) !important;
+    background: -webkit-linear-gradient(top,#f87b7e,#dc3b40 75%) !important;
+    border: 1px solid #e94548 !important;
+    color: #fff !important;
+    box-shadow: inherit !important;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.lhc_blue_bg{
+    background: linear-gradient(0deg,#6ebefa 0,#218ddd 75%) !important;
+    background: -webkit-linear-gradient(top,#6ebefa,#218ddd 75%) !important;
+    border: 1px solid #2994e3 !important;
+    color: #fff !important;
+    box-shadow: inherit !important;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.lhc_green_bg{
+  background: linear-gradient(0deg,#69d893 0,#38b366 75%) !important;
+  background: -webkit-linear-gradient(top,#69d893,#38b366 75%) !important;
+    border: 1px solid #3cb569 !important;
+  color: #fff !important;
+  box-shadow: inherit !important;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.sscFooter{
+    position: fixed;
+    left: 0;
+    bottom: 55px;
+    width: 100%;
+    font-size: 14px;
+    z-index: 3;
+}
+.g_Number_Section .lhclm .curr{
+    background: #dc3b40;
+    color: #fff !important;
+    border: 1px solid #dc3b40;
+}
+  .g_Number_Section .lhclm .curr + .lhclmPeil{
+    background: #dc3b40;
+    color: #fff !important;
+}
+  .g_Number_Section .lhclm .curr .lmbbNumber{
+    background: #dc3b40;
+    color: #fff !important;
+  }
+.bet-money {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 7px;
+    background: #fff;
+    border-top: 1px solid #dfdfdf;
+    color: #666;
+    display: none;
+}
+  .bet-money em {
+    display: inline-block;
+    overflow: hidden;
+}
+  .text-ellipsis {
+    display: inline-block;
+    width: 228px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 6px;
+    font-weight: 700;
+}
+  .bet-money {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 7px;
+    background: #fff;
+    border-top: 1px solid #dfdfdf;
+    color: #666;
+}
+  .bet-money input {
+    display: inline-block;
+    height: 26px;
+    font-weight: 500;
+    width: 76px;
+    line-height: 15px;
+    margin-left: 6px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    padding: 5px;
+    -webkit-appearance: none;
+}
+  .bet-money span {
+    margin-left: 6px;
+}
+  .bet-info {
+    width: 100%;
+    height: 48px;
+    background: #252525;
+    color: #ddd;
+    padding: 7px;
+}
+  .bet-info-left {
+    float: left;
+    line-height: 33px;
+}
+  .bet-info-clear {
+    padding-left: 0;
+    color: #ffaf36;
+    font-size: 21px;
+}
+  .bet-info-count {
+    padding-left: 14px;
+    color: #fff;
+    display: none;
+}
+  .bet-info-right {
+    float: right;
+    margin-right: 4px;
+    text-align: right;
+}
+  .bet-info-confirm {
+    background: #dc3b40;
+    border: none;
+    display: block;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    width: 91px;;
+    border-radius: 6px;
+    color: #ddd;
+}
+.selectNmuverBox .selectNumberPei .selectNumber{
+  margin: 0 15px;
+}
+.mobileGameTop .play_select_insert .play_select_tit{
+  width: 100%;
+}
+.mobileGameTop .play_select_insert .play_select_tit li{
+  float:left;
+  padding: 0px 17px;
+  line-height: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  color: #555;
+  font-size: 12px;
+  margin: 7px;
+  float: left;
+  border: 1px solid #ddd;
+  height: 25px;
+}
+.randomBox{
+  text-align: center;
+  padding: 7px 13px;
+  box-shadow: 0 0 0.5em #b9b9b9;
+  position: fixed;
+  z-index: 1011;
+  background: #f9f8f0;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+.randomBox .random{
+  position: relative;
+}
+.randomBox .random .randomBtn{
+  display: inline-block;
+  color: #333;
+  border: 1px solid #d2d2d2;
+  border-radius: .3em;
+  font-size: 14px;
+  height: 2.4em;
+  width: 29%;
+  line-height: 2.4em;
+  margin-left: .8em;
+  background: #fff;
+  text-decoration: none;
+} 
+.random1{
+  cursor: pointer;
+}
+.random5{
+  cursor: pointer;
+}
+.closeNumberlan{
+  cursor: pointer;
+}
+
+.mobileGameTop .play_select_insert .play_select_tit .curr{
+    background: #dc3b40;
+    border: 1px solid #dc3b40;
+    color: #fff;
+}
+
+.g_Time_Section{
+  overflow: hidden;
+  width: 100%;
+  background: #e1d9ba;
+}
+.g_Time_Section .cz_daojishi{
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 67px;
+}
+.g_Time_Section .cz_daojishi .open_issue{
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  color: #333;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.g_Time_Section .j_lottery_time{
+  color: #333;
+  font-size: 20px;
+}
+.g_Time_Section .cz_openNumb{
+  text-align: center;
+}
+.g_Time_Section .cz_openNumb .open_issue{
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  color: #333;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.g_Time_Section #ssc_winning_sum{
+  margin: 4px 0 9px;
+}
+.g_Time_Section #ssc_winning_sum li{
+  display:inline-block;
+  vertical-align: top;
+  background: #dc3b40;
+  background: linear-gradient(0deg,#f86469 0,#bf1f24 75%);
+  background: -webkit-linear-gradient(top,#f86469,#bf1f24 75%);
+  box-shadow: 0 3px 1px #bbb59c;
+  color: #fff;
+  width: 25px;;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 .2em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#gameBet .play_select_prompt{
+    padding: .05rem;
+    font-size: 0.13rem;
+}
+#gameBet .selectNmuverBox{
+  overflow: hidden;
+  padding-bottom: .1rem;
+}
+#gameBet .selectNmuverBox .numberTitle{
+    float: left;
+    color: #bbb39c;
+    border: .01rem solid #e3decf;
+    border-radius: .03rem;
+    padding: .05rem;
+    margin-top:.05rem;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+#gameBet .selectNmuverBox .selectNumbers{
+  float: left;
+    max-width: 2.42rem;
+      margin-left: .05rem;
+}
+#gameBet .selectNmuverBox .selectNumbers a{
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    color: #757575;
+    background: #ffffff;
+    border-radius: 50%;
+    border: .01rem solid #e6e6e6;
+    font-size: .16rem;
+    margin: .03rem;
+    text-decoration: none;
+}
+#gameBet .selectNmuverBox .selectNumbers .curr{
+    background: linear-gradient(-45deg, #967a27, rgb(190 173 123 / 36%));
+    color: #fff;
+    border: .01rem solid #f7f7f7;
+}
+#gameBet .selectNmuverBox .selectNumberFilters{
+    float: left;
+    max-width: .72rem;
+    text-align: center;
+}
+#gameBet .selectNmuverBox .selectNumberFilters a{
+display: inline-block;
+    width: .26rem;
+    height: .26rem;
+    line-height: .26rem;
+    background: #fff;
+    border: .01rem dotted #777;
+    border-radius: .05rem;
+    margin-right: .05rem;
+    margin-bottom: .05rem;
+}
+
+.selectMultiple .selectMultipleT{
+  background: #f8f8f8;
+  padding: 10px;
+  font-size: 18px;
+  color: #666;
+  overflow: hidden;
+  display: none;
+}
+.selectMultiple .selectMultipleB{
+  background: #252625;
+  overflow: hidden;
+  height: 64px;
+}
+
+
+
+
+
+.selectMultiple .addIcon{
+  font-size: 40px;
+  color: #fff;
+  float: left;
+  padding-right: 10px;
+  display: none;
+  line-height: 54px;
+}
+
+
+
+
+.selectMultiple .selectMultipleB_n{
+  color: #fff;
+  display: none;
+  padding-left: 50px;
+  white-space: nowrap;
+}
+
+.selectMultiple .selectMultipleLz{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #575858;
+  height: 64px;
+  line-height: 64px;
+  width: 139px;
+  text-align: center;
+}
+.selectMultiple .selectMultipleLz:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 32px solid transparent;
+    border-left: 12px solid #252625;
+    border-bottom: 32px solid transparent;
+    left: 0;
+    top: 0;
+}
+.selectMultiple .selectMultipleLzAdd:before{
+  border-left: 12px solid #dc3b40 !important;
+}
+.selectMultiple .selectMultipleLz .icon-lanzi{
+  font-size: 25px;
+  color: #fff;
+}
+.selectMultiple .selectMultipleLz_a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.selectMultiple .lanIconNumber{
+    width: 14px;
+    height: 14px;
+    font-size: 80%;
+    border-radius: 50%;
+    background: #a68f4c;
+    position: absolute;
+    top: 4px;
+    left: 69px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+  display: none;
+}
+
+.numberLan{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f9f8f0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow: hidden;
+  margin-top: 49px;
+  margin-bottom: 100px;
+}
+.xiad-left{
+  padding: 10px;
+  margin-top: 45px;
+}
+.xiad-left .yBettingLists{
+  background: #fff;
+  box-shadow: 0 0 0.5em #ccc;
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 10px;
+  position:relative;
+}
+.xiad-left .yBettingList{
+  overflow: hidden;
+  position: relative;
+}
+.xiad-left .numberBox{
+    display: block;
+    color: #dc3b40;
+    font-size: 16px;
+    /* line-height: 1.4em; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 90%; */
+    /* height: 1.4em; */
+}
+.xiad-left .yBettingType{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.xiad-left .yBettingZhushu{
+  float: left;
+  font-size: 17px;
+  color: #666;
+  padding-left: 5px;
+}
+.xiad-left .yBettingTimes{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.xiad-left .rmb{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.xiad-left .yzongRmb{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.fa-times{
+  font-size: 18px;
+}
+.sc{
+    position: absolute;
+    top: 9px;
+    right: 8px;
+	cursor: pointer;
+}
+#f_submit_order{
+	cursor: pointer;
+}
+
+.g_text{
+
+}
+#text{
+    width: 3.45rem;
+    margin-bottom: .05rem;
+    border-color: #eee;
+    transition: all .2s;
+    border: .01rem solid #eee;
+    font-size: .14rem;
+    color: #666;
+    resize: none;
+    padding: .05rem;
+    height: 1.1rem;
+    border-radius: .04rem;
+}
+.g_text button{
+    border: none;
+    background: #f37b1d;
+    padding: .04rem .1rem;
+    font-size: .13rem;
+    border-radius: .03rem;
+    margin: .04rem;
+    color: #fff;
+}
+.g_text .remove_btn{
+   color: #fff;
+    background-color: #434354; 
+}
+.g_text .test_istrue{
+  color: #fff;
+    background-color: #67c23a;  
+}
+.g_text .empty_text{
+  color: #fff;
+    background-color: #909399;  
+}
+
+.g_Number_Section{
+    padding: .1rem;
+    padding-bottom: 1.1rem;
+}
+.selectNumbers a{
+    display: inline-block;
+    width: 78px;
+    height: 33px;
+    line-height: 30px;
+    text-align: center;
+    color: #dc3b40;
+    background: #faf9f6;
+    border: 1px solid #bfbfbf;
+    font-size: 16px;
+    margin: .3em;
+    border-radius: .2em;
+    text-decoration: none;
+}
+.kl8_qw{
+  text-align: center;
+}
+.kl8_qw .curr{
+  background: #dc3b40;
+  color: #fff;
+  border: 1px solid #dc3b40;
+}
+.fc3d_c{
+  color:#00b7ee;
+}
+.pl3_c{
+  color:#38b366;
+}

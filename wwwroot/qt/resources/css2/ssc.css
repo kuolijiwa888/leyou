@@ -1,0 +1,494 @@
+@charset 'utf-8';
+
+.ssc_lottery li:last-child{
+  border-right: 1px solid  #ddd !important;
+}
+.ssc_logo .ssc_logo_icon{
+  font-size: 60px;
+  position: relative;
+  margin-top: 23px;
+  display: block;
+}
+#ssc_winning_sum{
+  overflow: hidden;
+  display: table;
+  margin: 0 auto;
+}
+#ssc_winning_sum li{
+  display: inline-block;
+  margin: 0 5px;
+  width: 42px;
+  height: 48px;
+  font-size: 22px;
+  line-height: 42px;
+  color: #a12836;
+  text-align: center;
+}
+.lhc_sxTextUl{
+  overflow: hidden;
+  display: flex;
+  margin-left: 14px;
+}
+.lhc_sxTextUl .lhcsxText{
+  display: inline-block;
+  margin: 0 2px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+.ssc_logo .ssc_logo_icon:after{
+  content: '';
+  height: 1px;
+  width: 36px;
+  z-index: 1;
+  box-shadow: 0 0 10px 2px #b7a4a4;
+  background: #dac9c9;
+  position: absolute;
+  bottom: -28px;
+  left:50%;
+  margin-left: -18px;
+}
+.ssc_winning_sum_gif{
+  background: url(../images/ballOpening.gif);
+  background-repeat: no-repeat;
+}
+.kl8_winning_sum_gif{
+  background: url(../images/ballOpening.gif);
+  background-repeat: no-repeat;
+  background-size: 25px 31px;
+}
+.lhc_winning_sum_gif{
+  background: linear-gradient(0deg,#f87b7e 0,#dc3b40 75%) ;
+  background: -webkit-linear-gradient(top,#f87b7e,#dc3b40 75%);
+}
+.selectNmuverBox .selectNumbers .curr.lhc_red_color{
+background-image: linear-gradient(0deg, #dc3b6b 0%, #e88e8e 96%) !important;
+    background-color: #e8d18e;
+    width: 34px;
+    height: 34px;
+    line-height: 35px;
+    border: 0px;
+    color: #fff !important;
+}
+.selectNmuverBox .selectNumbers .curr.lhc_blue_color{
+    background-image: linear-gradient(0deg, #218ddd 0%, #8ec7e8 96%) !important;
+    background-color: #e8d18e;
+    width: 34px;
+    height: 34px;
+    line-height: 35px;
+    border: 0px;
+    color: #fff !important;
+}
+.selectNmuverBox .selectNumbers .curr.lhc_green_color{
+    background-image: linear-gradient(0deg, #38b366 0%, #a0e88e 96%) !important;
+    background-color: #e8d18e;
+    width: 34px;
+    height: 34px;
+    line-height: 35px;
+    border: 0px;
+    color: #fff !important;
+}
+.selectNmuverBox  a.lhc_red_color{
+  color: #dc3b40;
+}
+.selectNmuverBox  a.lhc_red_color:hover{
+    background: #e4393c21;
+    border: 2px solid #de3b40;
+}
+.selectNmuverBox  a.lhc_blue_color{
+  color: #218ddd;
+}
+.selectNmuverBox  a.lhc_blue_color:hover{
+    background: #2192e51f;
+    border: 2px solid #288dde;
+}
+.selectNmuverBox  a.lhc_green_color{
+  color: #38b366;
+}
+.selectNmuverBox  a.lhc_green_color:hover{
+    background: #38b36614;
+    border: 2px solid #38b366;
+}
+#ssc_winning_sum .lhc_winning_sum_gif{
+  color: #fff;
+  box-shadow: 0 1px 1px #bbb59c;
+  border-radius: 50%;
+  font-size: 14px;
+  position: relative;
+}
+.eachPrice{
+    width: 70px;
+    height: 23px;
+    padding: 4px 5px;
+    border: 1px solid #ddd;
+    margin: 0 3px;
+}
+.bjpks_winning_sum_gif{
+  background: url(../images/ballOpening.gif);
+  background-repeat: no-repeat;
+  background-size: 35px 40px;
+}
+.ssc_winning_sum_bg{
+  background: url(../images/ballOpenBg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#bet_filter{
+  padding: 15px;
+  border-bottom: 1px solid #e7e7e8;
+}
+#bet_filter .bet_filter_item{
+  position: relative;
+  padding-top: 10px;
+}
+#bet_filter .bet_filter_item:first-child{
+  padding-top:0;
+}
+#bet_filter .bet_filter_item .title{
+    width: 63px;
+    display: inline-block;
+    margin-left: 22px;
+    color: #949494;
+    font-weight: 500;
+}
+#bet_filter .bet_option{
+  display:inline-block;
+}
+#bet_filter .bet_option .bet_options{
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #272727;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#bet_filter .curr{
+background-color: #a68f4c;
+  color: #fff !important;
+}
+
+
+.selectNmuverBox .numberTitleLast{
+    position: absolute;
+    display: block;
+    right: -5px;
+    top: 8px;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #455467;
+    border-bottom: 5px solid transparent;
+}
+.g_Number_Section .selectNumbers{overflow: hidden;margin: 0 auto;}
+.selectNumbers .lhclmPeil{
+  display: block;
+  text-align: center;
+}
+.selectNumbers .lhclmselectNumber{
+    width: 83px;
+    box-shadow: 0 1px 5px #d4d4d4;
+    display: inline-block;
+    background: linear-gradient(180deg,#fff 0,#f1efef 90%,#f7f7f7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f7f7f7",GradientType=0);
+    border-radius: 5px;
+    border: 1px solid #c0c5d2;
+    line-height: 50px;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    min-width: 52px;
+    text-decoration: none;
+}
+.selectNumbers .lhctmbbselectNumber{
+    width: 112px;
+    box-shadow: 0 1px 5px #d4d4d4;
+    display: inline-block;
+    background: linear-gradient(180deg,#fff 0,#f1efef 90%,#f7f7f7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f7f7f7",GradientType=0);
+    border-radius: 5px;
+    border: 1px solid #c0c5d2;
+    line-height: 50px;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    min-width: 52px;
+    text-decoration: none;
+}
+.selectNumbers .lhctmbbselectNumber .lmbbNumber{
+  font-size: 12px;
+  line-height: 16px;
+  transform: translateY(-6px);
+  margin: 0 4px;
+  color: #666;
+}
+.selectNumbers .curr div.lmbbNumber{
+  color: #fff;
+}
+.lhclm a.curr{
+    background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+    background: -moz-linear-gradient(to bottom,#d64b15 30%,#ea6a31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d64b15",endColorstr="#ea6a31",GradientType=0);
+    border: 1px solid #d24c10;
+    color: #fff;
+    text-decoration: blink;
+    box-shadow: inherit;
+}
+.selectNmuverBox .selectNumbers{
+    float: left;
+    min-width: 500px;
+    max-width: 509px;
+    text-align: center;
+    margin: 2px 0;
+    display: inline-block;
+}
+
+
+.selectMultiple{
+    color: #424242;
+    font-size: 16px;
+    background-color: #fafafa;
+    padding: 20px;
+    position: relative;
+    display: table;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.selectMultiple .zhushu{
+    color: #a68f4c;
+}
+.selectMultiple .selectMultipleNumber{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 5px;
+    position: relative;
+}
+.selectMultiple .selectMultipleNumber:hover .piece-changer{
+    display: block;
+}
+.selectMultiple .reduce{
+    background: #ffffff;
+    height: 32px;
+    line-height: 32px;
+    width: 20px;
+    text-align: center;
+    float: left;
+    border-left: 1px solid #e3e4e6;
+    border-top: 1px solid #e3e4e6;
+    border-bottom: 1px solid #e3e4e6;
+    border-radius: 4px 0 0 4px;
+    color: #c4c9d3;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+.selectMultiple .noReduce{
+    color: #c3c8d3 !important;
+    cursor: default !important;
+}
+.selectMultiple .selectMultipInput{
+    border: 1px solid #e0e6ed;
+    font-size: 15px;
+    width: 60px;
+    margin: 0!important;
+    float: left;
+    color: #686869;
+    height: 32px;
+    padding: 4px 5px;
+    text-align: center;
+    border-radius: 0;
+    vertical-align: baseline;
+}
+.selectMultiple .add{
+background: #ffffff;
+    height: 32px;
+    line-height: 32px;
+    width: 20px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #e3e4e6;
+    border-top: 1px solid #e3e4e6;
+    border-bottom: 1px solid #e3e4e6;
+    border-radius: 0 4px 4px 0;
+    color: #c4c9d3;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.selectMultiple .select-bs{
+    font-size: 16px;
+    color: #727475;
+    margin-left: 5px;
+    height: 32px;
+    line-height: 32px;
+    width: 20px;
+    font-size: 14px;
+}
+.selectMultiple .selectMultipleCon{
+    border: 1px solid #e0e6ed;
+    height: 25px;
+    width: 80px;
+    padding-left: 34px;
+    margin: 0 5px;
+    vertical-align: baseline;
+    font-size: 12px;
+    color: #4c4c4c;
+    border-radius: 5px;
+    background: #fff;
+}
+.selectMultiple .selectMultipleOldMoney{
+   color: #a68f4c;
+}
+.yBettingLists{
+}
+.yBettingLists .yBettingList{
+
+}
+.yBettingLists .numberBox{
+
+}
+.yBettingLists .number{
+  width: 318px !important;
+}
+.yBettingLists .yBettingDiv{
+  display: inline-block;
+  width: 318px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.yBettingLists .sc{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.yBettingLists .yBettingZhushu{
+  width: 120px;
+  text-align: center;
+}
+.yBettingLists .yBettingTimes{
+    width: 135px;
+    text-align: center;
+}
+.yBettingLists .rmb{
+    width: 110px;
+    text-align: center;
+}
+.yBettingLists .maxMoneyNumber{
+    color: color: #777777;;
+    text-align: center;
+}
+.g_text{
+  overflow: hidden;
+  position: relative;
+}
+.g_text #text{
+    width: 850px;
+    height: 165px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    cursor: text;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 8px;
+    margin-left: 13px;
+}
+.g_text .remove_btn,.g_text .test_istrue,.g_text .empty_text{
+  float: left;
+  display: inline-block;
+  line-height: 28px;
+  color: #a68f4c;
+  height: 30px;
+  padding: 0 15px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-right: 10px;
+  min-width: 55px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #a68f4c;
+  background: #fff;
+  margin: 5px 5px;
+}
+.g_text .remove_btn{
+    margin-left: 12px;
+}
+.play_select_prompt{
+  position: relative;
+}
+.play_select_prompt .see{
+  margin-right: 10px;
+  position: relative;
+  font-size: 13px;
+  color: #ff9831;
+  text-decoration: underline;
+}
+.play_select_prompt .see_model{
+  display: none;
+  position: absolute !important;
+  right: 0;
+  top: 43px;
+  width: 60px;
+  background: #2e4158;
+  margin-left: 8px;
+  color: #fff;
+  border-radius: 4px;
+  position: relative;
+  z-index: 999;
+}
+.play_select_prompt .seee_model_p{
+  margin: 0;
+  line-height: 23px;
+}
+.yBettingType{
+  display: inline-block;
+}
+.opencode_info{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  cursor: pointer;
+}
+
+.kl8_qw .kl8_qw_number{
+    height: 42px;
+    width: 92px;
+    line-height: 42px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 6px;
+    background: #cecece;
+    border: 1px solid #c0c5d2;
+    line-height: 38px;
+    font-size: 18px;
+    color: #000;
+    box-shadow: 0 1px 3px #d4d4d4, inset 0 -1px 5px #fff;
+    text-align: center;
+    background: linear-gradient(180deg,#fff 0,#f1efef);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f1efef",GradientType=0);
+    filter: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.kl8_qw  .curr{
+    background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+    background: -moz-linear-gradient(to bottom,#d64b15 30%,#ea6a31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d64b15",endColorstr="#ea6a31",GradientType=0);
+    border: 1px solid #d24c10;
+    color: #fff;
+    text-decoration: blink;
+    box-shadow: inherit;
+}
