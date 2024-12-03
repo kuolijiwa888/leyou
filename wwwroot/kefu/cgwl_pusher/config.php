@@ -1,12 +1,12 @@
 <?php
 // 这里填写客服系统域名，前面带http://，用于pusher系统通知客服平台客户或者客服上下线
-$domain = 'http://43.242.128.231';
+$domain = 'http://127.0.0.1';
 
 // App_key，客服系统与pusher通讯的key
-$app_key = 'jlpochm7954dz902';
+$app_key = '00jsl7vfft672n1w';
 
 // App_secret，客服系统与pusher通讯的密钥
-$app_secret = 't1orxchebk6qgsfcr5bm70phtkcl1z22';
+$app_secret = '10k9e2vgr1jaielqfwj3nld9fp5oqs6s';
 
 // App id
 $app_id = 232;

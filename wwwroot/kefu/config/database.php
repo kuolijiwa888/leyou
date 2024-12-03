@@ -26,9 +26,9 @@ return [
     // 数据库名
     'database'       => 'kefu',
     // 用户名
-    'username'       => 'kefu',
+    'username'       => 'root',
     // 密码
-    'password'       => 'CGmLTCyfwpSbRHrJ',
+    'password'       => '123456',
     // 端口
     'hostport'       => '',
     // 数据库表前缀

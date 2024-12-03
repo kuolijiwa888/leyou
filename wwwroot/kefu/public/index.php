@@ -30,14 +30,14 @@ define('CONF_PATH', __DIR__ . '/../config/');
 
 
 // 定义pusher密匙
-define('app_key','jlpochm7954dz902');
-define('app_secret','t1orxchebk6qgsfcr5bm70phtkcl1z22');
+define('app_key','00jsl7vfft672n1w');
+define('app_secret','10k9e2vgr1jaielqfwj3nld9fp5oqs6s');
 define('app_id',232);
-define('whost','ws://43.242.128.231');
-define('ahost','http://43.242.128.231');
+define('whost','ws://127.0.0.1');
+define('ahost','http://127.0.0.1');
 define('wport',9090);
 define('aport',2080);
-define('registToken','27265');
+define('registToken','16763');
 
 // 自定义一个 入口 目录
 define('PUBLIC_PATH',__DIR__);
@@ -48,7 +48,7 @@ define('EXTEND_PATH','../extend/');
 define('appid','');
 define('appsecret','');
 define('token','');
-define('domain','http://43.242.128.231');
+define('domain','http://127.0.0.1');
 
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
